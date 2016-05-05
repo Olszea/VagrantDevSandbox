@@ -1,0 +1,6 @@
+<VirtualHost *:80>
+    ServerName test.loc
+    ServerAlias www.test.loc
+
+    DocumentRoot "/var/www/test"
+</VirtualHost>

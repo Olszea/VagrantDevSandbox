@@ -1,0 +1,8 @@
+# IDE-related files and directories
+nbproject
+
+# Vagrant folder
+.vagrant
+
+www/*
+!www/test
