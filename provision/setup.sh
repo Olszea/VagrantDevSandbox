@@ -35,7 +35,7 @@ sudo apt-get -y install mysql-server > /dev/null 2>&1
 ###################################################
 
 echo "- some other stuff"
-apt-get install -y libapache2-mod-php7.0 php7.0-mysql php7.0-curl php7.0-json > /dev/null 2>&1
+apt-get install -y --force-yes libapache2-mod-php7.0 php7.0-mysql php7.0-curl php7.0-json php-xml > /dev/null 2>&1
 
 ###################################################
 
