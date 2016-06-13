@@ -64,5 +64,6 @@ su
 # password for root user is "vagrant"
 cp /etc/apache2/sites-available/test.loc.conf /etc/apache2/sites-available/mysite.loc.conf
 # edit /etc/apache2/sites-available/mysite.loc.conf
-service apache2 restart
+a2ensite mysite.loc.conf
+service apache2 reload
 ```
