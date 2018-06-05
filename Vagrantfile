@@ -1,7 +1,7 @@
 Vagrant.configure("2") do |config|
 
     # Set up base box
-    config.vm.box = "ubuntu/trusty64"
+    config.vm.box = "ubuntu/bionic64"
 
     # Set up static IP for VM
     config.vm.network "private_network", ip: "192.168.1.50"
