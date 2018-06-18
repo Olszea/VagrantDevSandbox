@@ -4,7 +4,7 @@ Vagrant.configure("2") do |config|
     config.vm.box = "ubuntu/bionic64"
 
     # Set up static IP for VM
-    config.vm.network "private_network", ip: "192.168.1.50"
+    config.vm.network "public_network"
 
     # Set up shared folders
     config.vm.synced_folder "./www", "/var/www", create: true, group: "www-data", owner: "www-data"

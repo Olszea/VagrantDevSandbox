@@ -8,7 +8,7 @@ apt-get update > /dev/null 2>&1
 
 echo "- PHP 7.0"
 apt-get install -y python-software-properties > /dev/null 2>&1
-apt-get install -y php7.0 > /dev/null 2>&1
+apt-get install -y php7.2 > /dev/null 2>&1
 
 ###################################################
 
